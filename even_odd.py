@@ -1,6 +1,6 @@
 
 def parity_check(num):
-    #user input with error catcher
+    #error catcher
     if not isinstance(num,int):
         raise ValueError("Invalid argument.  Use integer only.")
     
